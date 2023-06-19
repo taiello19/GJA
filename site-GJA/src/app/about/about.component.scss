@@ -1,0 +1,9 @@
+.top {
+    //works for top padding in all sizes
+    padding-top: 12vh;
+
+    @media(max-width: 1800px) {
+        padding-top: 16vh;
+    }
+
+}

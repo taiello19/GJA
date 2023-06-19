@@ -1,0 +1,21 @@
+img{
+    width: 300px;
+    height: 350px;
+}
+.left{
+    margin-left: 2vw;
+}
+
+.blurb{
+    font-size:100px;
+}
+
+.top {
+    //works for top padding in all sizes
+    padding-top: 12vh;
+
+    @media(max-width: 1800px) {
+        padding-top: 16vh;
+    }
+
+}

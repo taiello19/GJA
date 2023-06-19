@@ -1,4 +1,48 @@
-.container{
-    margin-top: 30px;
-    margin-bottom: 50px;
+.top {
+    //works for top padding in all sizes
+    padding-top: 12vh;
+
+    @media(max-width: 1800px) {
+        padding-top: 16vh;
+    }
+
+    .topImg {
+        border-radius: 8px;
+        //max-width: 100%; //fullscreen img
+
+        //center image
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        display: block;
+    }
+}
+
+.description {
+    padding-bottom: 45vh;
+    padding-top: 100px;
+
+    .image {
+        border-radius: 8px;
+        width: 550px;
+        height: 400px;
+        padding-left: 40px;
+        float: left;
+    }
+
+    h1 h2 {
+        float: right;
+        text-transform: capitalize;
+
+    }
+
+    h1 {
+
+    }
+
+    h2 {
+        color: #8bc53f;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
 }

@@ -1,14 +1,12 @@
 .footer {
-    //remove this to have it only show up at the bottom of the page
-    //position: fixed;
+      position: fixed;
       left: 0px;
       bottom: 0px;
       width: 100%;
-      height: 150px;
-      background-color: #343a40;
+      height: 110px;
+      background-color: #333333;
       color: white;
       text-align: center;
-     
     }
   
     p{
@@ -38,4 +36,9 @@
   
     h1:hover{
       cursor: default;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
     }
