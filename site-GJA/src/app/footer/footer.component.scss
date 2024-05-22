@@ -1,44 +1,53 @@
 .footer {
-      position: fixed;
-      left: 0px;
-      bottom: 0px;
-      width: 100%;
-      height: 110px;
-      background-color: #333333;
-      color: white;
-      text-align: center;
-    }
-  
-    p{
-      display: inline-block;
-      margin-left: 80px;
-    }
-  
-    .li{
-      width: 20px;
-      height: 20px;
-    }
-  
-    .email{
-      width: 30px;
-      height: 20px;
-    }
-  
-    .phone{
-      width: 20px;
-      height: 20px;
-    }
-  
-    .zoom:hover {
-      transform: scale(2);
-      cursor: pointer;
-    }  
-  
-    h1:hover{
-      cursor: default;
-    }
+  width: 100%;
+  height: 110px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  margin-top: 20px; /* Adjust this value as needed */
+}
 
-    a {
-      text-decoration: none;
-      color: white;
-    }
+h1 {
+  @media (max-width: 800px) {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+}
+p {
+  display: inline-block;
+  margin-left: 80px;
+
+  @media (max-width: 800px) {
+    font-size: 10px;
+    margin-left: 50px;
+  }
+}
+
+.li {
+  width: 20px;
+  height: 20px;
+}
+
+.email {
+  width: 30px;
+  height: 20px;
+}
+
+.phone {
+  width: 20px;
+  height: 20px;
+}
+
+.zoom:hover {
+  transform: scale(2);
+  cursor: pointer;
+}
+
+h1:hover {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
