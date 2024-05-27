@@ -19,10 +19,14 @@
   padding-bottom: 20vh;
   padding-top: 100px;
 
+  .moveLeft {
+    padding-left: 500px;
+  }
+
   .image {
     border-radius: 8px;
-    width: 550px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     padding-left: 40px;
     float: left;
   }
